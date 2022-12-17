@@ -1,0 +1,284 @@
+body {
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  color: #212121;
+}
+
+:root {
+  --blue-color: #2196f3;
+  --background-color-index: #2f303a;
+}
+
+/* STYLES OF HEADER */
+
+.logo {
+  font-family: 'Raleway';
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.2;
+  letter-spacing: 0.03em;
+  text-decoration: none;
+  color: var(--blue-color);
+}
+
+.nav-menu-link {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: #212121;
+  text-decoration: none;
+}
+
+.nav-menu-link:hover {
+  color: var(--blue-color);
+}
+
+.nav-menu-link:active {
+  color: var(--blue-color);
+}
+
+.nav-menu-item {
+  list-style: none;
+}
+
+.mail {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  text-decoration: none;
+  color: #757575;
+}
+
+.tel {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  text-decoration: none;
+  color: #757575;
+}
+
+.mail:hover {
+  color: var(--blue-color);
+}
+
+.mail:active {
+  color: var(--blue-color);
+}
+
+.tel:hover {
+  color: var(--blue-color);
+}
+
+.tel:active {
+  color: var(--blue-color);
+}
+
+/* STYLES OF BOX MAJOR */
+
+.box-major {
+  background-color: var(--background-color-index);
+}
+
+.titulo {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.4;
+  text-align: center;
+  letter-spacing: 0.06em;
+  color: #ffffff;
+}
+
+.btn1 {
+  text-align: center;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.9;
+  background: var(--blue-color);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+  border-color: var(--blue-color);
+  color: #ffffff;
+  cursor: pointer;
+}
+
+/* ESTILOS PARRAFOS*/
+
+.parrafos_1 {
+  list-style: none;
+}
+
+.titulos--parrafos {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+}
+
+.parrafos {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.7;
+  letter-spacing: 0.03em;
+  color: #757575;
+}
+
+/* ESTULOS A QUE NOS DEDICAMOS*/
+
+.titulo--2 {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.2;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+
+.lista_img1 {
+  list-style: none;
+}
+
+/* ESTILOS A NUESTRO EQUIPO*/
+
+.titulo--3 {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.2;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+
+.lista_img2 {
+  list-style: none;
+}
+
+.nombre--persona {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.18;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+
+.profesion {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.18;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #757575;
+}
+
+/* ESTILOS PAGINA PORTAFOLIO */
+
+/* PRIMEROS BOTONES */
+.list--btns {
+  list-style: none;
+}
+
+.btn {
+  border: none;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.62;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+
+.btn:hover {
+  background-color: var(--blue-color);
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
+    0px 2px 2px rgba(0, 0, 0, 0.12);
+  border-radius: 4px;
+  cursor: pointer;
+  color: #ffffff;
+}
+
+.btn:active {
+  background-color: var(--blue-color);
+}
+
+/* IMAGENES CON DESCRPICIÓN */
+.list--portafolio {
+  list-style: none;
+}
+
+.titulo--imagenes {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+}
+
+.descripcion {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.87;
+  letter-spacing: 0.03em;
+  color: #757575;
+}
+
+.list--portafolio:hover {
+  background: #ffffff;
+  border: 1px solid #eeeeee;
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
+    1px 4px 6px rgba(0, 0, 0, 0.16);
+  cursor: pointer;
+}
+
+/* ESTILOS FOOTER */
+
+.footerr {
+  background-color: var(--background-color-index);
+}
+
+.ubicacion {
+  text-decoration: none;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: #ffffff;
+}
+
+.mail1 {
+  text-decoration: none;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.tel1 {
+  text-decoration: none;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.mail1:hover {
+  color: var(--blue-color);
+}
+
+.tel1:hover {
+  color: var(--blue-color);
+}
+
+.mail1:active {
+  color: var(--blue-color);
+}
+
+.tel1:active {
+  color: var(--blue-color);
+}
+
+.list--foot {
+  list-style: none;
+}
